@@ -11,11 +11,8 @@ generar.addEventListener("click", function(){
         text: "El numero tiene que ser igual o mayor a 1.",
         type: "warning",
         showConfirmButton: false,
-        // showCancelButton: true,
         cancelButtonColor: '#d33',
-        // cancelButtonText: "Ok"
       });
-    // alert("Ingresa un número válido")
   } else {
   for (var i = 1; i < 11; i++) {
     let un_resultado = numerito + " x " + i + " = " + (numerito * i)
